@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Atkinson Hyperlegible", sans-serif; height: 6000px;
+}
+
+.C1{
+   width: 85%; 
+   margin: 0 auto ; 
+}
+
+
+/* ! Блок 1 Меню */
+
+.E1{
+    display: flex; justify-content: space-between;
+    margin-top: 10px; 
+   
+}
+
+.R1{
+    display: flex; 
+    margin-top: 20px; gap: 20px ;
+}
+
+.R1 a{
+    text-decoration: none; font-size: 18px; color: black;
+    border-bottom: 3px solid transparent; 
+ 
+}
+
+.R1 a.active,
+.R1 a:hover {
+    border-bottom: 3px solid #68B738;
+
+}
+
+
+/* ! Блок 2 Функциональное */
+
+.E2{
+    margin-top: 60px; margin-left: 100px;
+}
+
+.R2{
+    display: flex; justify-content: center; 
+    flex-direction: column; gap: 20px; position: relative;
+}
+
+.R2 h1{
+    font-size: 70px; font-weight: 500;
+}
+.R2 h3{
+    font-size: 20px; 
+}
+
+.R2 button{
+    width: 290px; height: 70px; background-color: rgba(104, 183, 56, 1);
+    color: aliceblue; font-size: 20px; font-weight: 540; border-radius: 5px;  position: relative; top: 50px;
+}
+
+.R2:hover button{
+    background-color: #5a9662; transition: 0.3s;
+}
+
+.E2 img{
+    width: 1000px; margin-top: -100px; margin-left: 100px;
+}
+
+
+/* ! Блок 3 Мышыктын сүрөтүү */
+
+
+.U2{
+    background-color: rgba(242, 242, 242, 1); height: 400px; 
+}
+.E3{
+    display: flex;
+    justify-content: center; gap: 200px;
+}
+
+.R3{
+    display: flex; flex-direction: column; gap: 30px; 
+    margin-top: 40px;
+}
+.R3 h1{
+    font-size: 70px;
+    font-weight: 500; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.R3 p{
+    font-size: 19px; font-weight: 400; width: 400px; 
+}
+
+.R3 h4{
+    font-size: 20px;
+}
+
+.Y1 img{
+    width: 300px; margin-top: 50px;
+}
+
+/*   Блок 3: мини 1 */
+
+
+.U3{
+    background-color: rgba(242, 242, 242, 1);
+    height: 400px; margin-top: 100px; 
+}
+
+.Y2 img {
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+
+/* ! Блок 4 Как это работает */
+.U4 {
+    margin-top: 200px; 
+}
+
+.P1{
+    display: flex;
+        flex-wrap: wrap;
+        gap: 600px;
+        margin-left: 80px;
+        margin-top: 100px;
+}
+
+.P2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 600px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+
+.U4 h1 {
+    font-size: 70px;
+}
+
+.R4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.R4 .M1 {
+    width: 150px;
+
+}
+
+.R4 p {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+ 
+}
+
+.T1 {
+    width: 110px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+    /* Сүрөт тексттин астында (анткени 1 < 2) */
+    /* Эгер бардык элементтердин астында алып салуу керек болсо,
+        анда мен  жалпы: -1 кылам */
+}
+
+.T2{
+    width: 150px;
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        z-index: 2;
+}
+
+.T3{
+    width: 180px;
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        z-index: 1;
+}
+
+
+/* ! Блок 5 Живой пример */
+
+
+.U5{
+    margin-top: 200px; 
+}
+
+
+.E5 h1{
+    font-size: 80px; font-family:serif; font-weight: 600;
+} 
+
+.E5 p{
+    font-size: 20px; margin-top: 50px;
+}
+
+.P3{
+    display: flex; gap: 100px; margin-top: 60px;
+}
+
+.H1{
+    border: 2px solid rgb(8, 9, 9); width: 200px; height: 100px; text-align: center; 
+}
+
+.H1 h2{
+    font-size: 30px; margin-top: 15px; 
+}
+.H1 h4{
+    font-size: 15px; margin-top: 10px;
+}
+
+.H2 h2 {
+    font-size: 30px;
+    margin-top: 15px; margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! Блок 6 Мышык /
+
+
+/* Мышыктар жайгашкан блок */
+.E6 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    margin-top: 100px;
+    
+    
+}
+
+.P4 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Семиз мышык (Сол тарабы көрүнүп турат) */
+.H3 {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    width: 50%;
+    left: 0;
+    z-index: 1;
+}
+
+/* Арык мышык (Оң тарабы көрүнүп турат) */
+.H4 {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    width: 50%;
+    right: 0;
+    z-index: 1;
+}
+
+/* Ползунок (Слайдер) стилдери */
+.P5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.H5 {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 1px dotted #000;
+}
+
+.H6 {
+    width: 200px;
+    height: 6px;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.H7 {
+    width: 20px;
+    height: 20px;
+    background-color: #68B738;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+/* ! Блок 7 Жазуу жана карта */
+
+.U6{
+    margin-top: 100px; 
+    height: 1000px;
+}
+
+.P6{
+    display: flex; justify-content:space-around; 
+}
+
+.P6 h1{
+    margin-top: 100px; font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.P6 h4 {
+    margin-top: 120px; font-size: 20px; 
+    display: flex; flex-direction: column;
+    color: rgba(68, 68, 68, 1);
+   
+}
+
+
+.E7 img{
+   
+        height: 500px;
+        width: 980px;
+        margin-top: 100px; 
+        margin-left: 170px;
+}
+
+
+/*! Блок 8 CAT ENERGY-  */
+
+.E8{
+  display: flex; margin-top: 100px; justify-content: space-evenly;
+}
+
+.E8 h1{
+    margin-top: 20px;
+}
+
+.E8 h2{
+    font-size: 20px; margin-top: 28px;
+}
+
+.E8 h2 img{
+    margin-left: 10px;
+}
+
+.P7 img{
+    margin-top: 10px;  
+}
+.E8 img{
+    width: 200px;
+}
